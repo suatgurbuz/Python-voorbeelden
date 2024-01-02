@@ -1,0 +1,24 @@
+print()
+getal = int(input("Kies een positief geheel getal: "))
+
+if not getal % 3 :  # getal % 3 als dat gelijk is aan nul levert 
+    if not getal % 7 :  # dat False op en not False  levert True op.
+        if not getal % 11 :
+            if not getal % 17 :
+                print()
+                print("Dit getal is deelbaar door 3, 7, 11 & 17!")
+
+print()
+print("---> Einde van het programma!")
+
+#-----Bovenste en onderste programma doe het zelfde----########
+
+print()
+getal = int(input("Kies een positief geheel getal: "))
+
+if getal % 3 == 0 and getal % 7 == 0 and getal % 11 == 0 and getal % 17 == 0:
+    print()
+    print("Dit getal is deelbaar door 3, 7, 11 & 17!")
+
+print()
+print("---> Einde van het programma!")
