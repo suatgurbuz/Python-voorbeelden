@@ -1,4 +1,16 @@
-print()                                                        # Drie oplossingen voor hetzelfde probleem!
+# Hiermee bepaal je welke getallen deelbaar zijn door: 3, 7, 11 & 17 om de drie oplossingen te kunnen testen.
+
+for i in range (1,20000) :
+    if i%3==0 and i%7==0 and i%11==0 and i%17==0 :
+        print(i)
+        print("Het gekozen getal is deelbaar door 3, 7, 11 & 17!")
+        
+print()
+print( "----> Einde van het programma!")
+
+ ############### Drie oplossingen voor hetzelfde probleem! ####################  
+
+print()                                                       
 getal = int(input("Kies een positief geheel getal: "))
 
 if getal % 3 == 0:
@@ -26,7 +38,7 @@ print()
 print("---> Einde van het programma!")
 
 
-#-----Bovenste en onderste programma's doen het zelfde----########
+#######-----Bovenste en onderste programma's doen het zelfde----########
 
 print()
 getal = int(input("Kies een positief geheel getal: "))
