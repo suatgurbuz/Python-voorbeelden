@@ -11,7 +11,7 @@ if not getal % 3 :  # getal % 3 als dat gelijk is aan nul levert
 print()
 print("---> Einde van het programma!")
 
-#-----Bovenste en onderste programma doe het zelfde----########
+#-----Bovenste en onderste programma doen het zelfde----########
 
 print()
 getal = int(input("Kies een positief geheel getal: "))
